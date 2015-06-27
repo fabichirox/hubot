@@ -12,6 +12,8 @@ module.exports = (robot) ->
 
  robot.hear /morishin/i, (res) ->
   res.send "coffeee"
+ robot.hear /miyazaki/i, (res) ->
+  res.send "aori"
   #
   # robot.respond /open the (.*) doors/i, (res) ->
   #   doorType = res.match[1]
